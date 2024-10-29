@@ -1,0 +1,343 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/qlc/c++_code/designPattern/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+AbstractProduct	constructor.cpp	/^class AbstractProduct{$/;"	c	file:
+AdapterCharger	adapter.cpp	/^class AdapterCharger : public USB {$/;"	c	file:
+AdapterCharger::charge	adapter.cpp	/^    void charge() override {$/;"	f	class:AdapterCharger	typeref:typename:void	file:	access:public	signature:()
+Android	bridge.cpp	/^	Android():HandsetBrand(){$/;"	f	class:Android	file:	access:public	signature:()
+Android	bridge.cpp	/^class Android: public HandsetBrand{$/;"	c	file:
+Android::Android	bridge.cpp	/^	Android():HandsetBrand(){$/;"	f	class:Android	file:	access:public	signature:()
+Android::run	bridge.cpp	/^	virtual void run(){$/;"	f	class:Android	typeref:typename:void	file:	access:public	signature:()
+Android::~Android	bridge.cpp	/^	virtual ~Android(){$/;"	f	class:Android	file:	access:public	signature:()
+Center	newAdapter.cpp	/^	Center(){$/;"	f	class:Center	file:	access:public	signature:()
+Center	newAdapter.cpp	/^	Center(string name){$/;"	f	class:Center	file:	access:public	signature:(string name)
+Center	newAdapter.cpp	/^class Center: public Player{$/;"	c	file:
+Center::Center	newAdapter.cpp	/^	Center(){$/;"	f	class:Center	file:	access:public	signature:()
+Center::Center	newAdapter.cpp	/^	Center(string name){$/;"	f	class:Center	file:	access:public	signature:(string name)
+Center::attack	newAdapter.cpp	/^	virtual void attack(){$/;"	f	class:Center	typeref:typename:void	file:	access:public	signature:()
+Center::defense	newAdapter.cpp	/^	virtual void defense(){$/;"	f	class:Center	typeref:typename:void	file:	access:public	signature:()
+Center::name	newAdapter.cpp	/^	string name;$/;"	m	class:Center	typeref:typename:string	file:	access:private
+Center::~Center	newAdapter.cpp	/^	virtual ~Center(){$/;"	f	class:Center	file:	access:public	signature:()
+Clock	observer.cpp	/^    Clock() : hour(0) {}$/;"	f	class:Clock	file:	access:public	signature:()
+Clock	observer.cpp	/^class Clock : public Subject {$/;"	c	file:
+Clock::Clock	observer.cpp	/^    Clock() : hour(0) {}$/;"	f	class:Clock	file:	access:public	signature:()
+Clock::getObservers	observer.cpp	/^    const std::vector<Observer*>& getObservers() const {$/;"	f	class:Clock	typeref:typename:const std::vector<Observer * > &	file:	access:public	signature:() const
+Clock::hour	observer.cpp	/^    int hour;$/;"	m	class:Clock	typeref:typename:int	file:	access:private
+Clock::notifyObservers	observer.cpp	/^    void notifyObservers() override {$/;"	f	class:Clock	typeref:typename:void	file:	access:public	signature:()
+Clock::observers	observer.cpp	/^    std::vector<Observer*> observers;$/;"	m	class:Clock	typeref:typename:std::vector<Observer * >	file:	access:private
+Clock::registerObserver	observer.cpp	/^    void registerObserver(Observer* observer) override {$/;"	f	class:Clock	typeref:typename:void	file:	access:public	signature:(Observer * observer)
+Clock::removeObserver	observer.cpp	/^    void removeObserver(Observer* observer) override {$/;"	f	class:Clock	typeref:typename:void	file:	access:public	signature:(Observer * observer)
+Clock::tick	observer.cpp	/^    void tick() {$/;"	f	class:Clock	typeref:typename:void	file:	access:public	signature:()
+Clone	prototype.cpp	/^	virtual Prototype* Clone() const{$/;"	f	class:ConcretePrototype	typeref:typename:Prototype *	file:	access:public	signature:() const
+Computer	factor.cpp	/^class Computer{$/;"	c	file:
+Computer::~Computer	factor.cpp	/^    virtual ~Computer(){$/;"	f	class:Computer	file:	access:public	signature:()
+ComputerFactory	factor.cpp	/^class ComputerFactory$/;"	c	file:
+ComputerFactory::NewComputer	factor.cpp	/^	static Computer *NewComputer(const std::string &description)$/;"	f	class:ComputerFactory	typeref:typename:Computer *	file:	access:public	signature:(const std::string & description)
+ComputerMultiFactory	factor.cpp	/^class ComputerMultiFactory {$/;"	c	file:
+ComputerMultiFactory::NewMultiDesktop	factor.cpp	/^  	Computer *NewMultiDesktop() {$/;"	f	class:ComputerMultiFactory	typeref:typename:Computer *	file:	access:public	signature:()
+ComputerMultiFactory::NewMultiLaptop	factor.cpp	/^  	Computer *NewMultiLaptop () {$/;"	f	class:ComputerMultiFactory	typeref:typename:Computer *	file:	access:public	signature:()
+ComputerStaticFactory	factor.cpp	/^class ComputerStaticFactory {$/;"	c	file:
+ComputerStaticFactory::NewStaticDesktop	factor.cpp	/^  	static Computer *NewStaticDesktop() {$/;"	f	class:ComputerStaticFactory	typeref:typename:Computer *	file:	access:public	signature:()
+ComputerStaticFactory::NewStaticLaptop	factor.cpp	/^  	static Computer *NewStaticLaptop() {$/;"	f	class:ComputerStaticFactory	typeref:typename:Computer *	file:	access:public	signature:()
+ConcretePrototype	prototype.cpp	/^	ConcretePrototype(){$/;"	f	class:ConcretePrototype	file:	access:public	signature:()
+ConcretePrototype	prototype.cpp	/^	ConcretePrototype(const ConcretePrototype& cp){$/;"	f	class:ConcretePrototype	file:	access:public	signature:(const ConcretePrototype & cp)
+ConcretePrototype	prototype.cpp	/^class ConcretePrototype:public Prototype{$/;"	c	file:
+ConcretePrototype::Clone	prototype.cpp	/^	virtual Prototype* Clone() const{$/;"	f	class:ConcretePrototype	typeref:typename:Prototype *	file:	access:public	signature:() const
+ConcretePrototype::ConcretePrototype	prototype.cpp	/^	ConcretePrototype(){$/;"	f	class:ConcretePrototype	file:	access:public	signature:()
+ConcretePrototype::ConcretePrototype	prototype.cpp	/^	ConcretePrototype(const ConcretePrototype& cp){$/;"	f	class:ConcretePrototype	file:	access:public	signature:(const ConcretePrototype & cp)
+ConcretePrototype::~ConcretePrototype	prototype.cpp	/^	~ConcretePrototype(){$/;"	f	class:ConcretePrototype	file:	access:public	signature:()
+ConcreteStrategyA	strategy.cpp	/^	ConcreteStrategyA():Strategy(){$/;"	f	class:ConcreteStrategyA	file:	access:public	signature:()
+ConcreteStrategyA	strategy.cpp	/^class ConcreteStrategyA: public Strategy{$/;"	c	file:
+ConcreteStrategyA::ConcreteStrategyA	strategy.cpp	/^	ConcreteStrategyA():Strategy(){$/;"	f	class:ConcreteStrategyA	file:	access:public	signature:()
+ConcreteStrategyA::algorithmInterface	strategy.cpp	/^	virtual void algorithmInterface(){$/;"	f	class:ConcreteStrategyA	typeref:typename:void	file:	access:public	signature:()
+ConcreteStrategyA::~ConcreteStrategyA	strategy.cpp	/^	virtual ~ConcreteStrategyA(){$/;"	f	class:ConcreteStrategyA	file:	access:public	signature:()
+ConcreteStrategyB	strategy.cpp	/^	ConcreteStrategyB(): Strategy(){$/;"	f	class:ConcreteStrategyB	file:	access:public	signature:()
+ConcreteStrategyB	strategy.cpp	/^class ConcreteStrategyB: public Strategy{$/;"	c	file:
+ConcreteStrategyB::ConcreteStrategyB	strategy.cpp	/^	ConcreteStrategyB(): Strategy(){$/;"	f	class:ConcreteStrategyB	file:	access:public	signature:()
+ConcreteStrategyB::algorithmInterface	strategy.cpp	/^	virtual void algorithmInterface(){$/;"	f	class:ConcreteStrategyB	typeref:typename:void	file:	access:public	signature:()
+ConcreteStrategyB::~ConcreteStrategyB	strategy.cpp	/^	virtual ~ConcreteStrategyB(){$/;"	f	class:ConcreteStrategyB	file:	access:public	signature:()
+Context	strategy.cpp	/^	Context(Strategy* strategy){$/;"	f	class:Context	file:	access:public	signature:(Strategy * strategy)
+Context	strategy.cpp	/^class Context{$/;"	c	file:
+Context::Context	strategy.cpp	/^	Context(Strategy* strategy){$/;"	f	class:Context	file:	access:public	signature:(Strategy * strategy)
+Context::contextInterface	strategy.cpp	/^	void contextInterface(){$/;"	f	class:Context	typeref:typename:void	file:	access:public	signature:()
+Context::strategy	strategy.cpp	/^	Strategy* strategy;$/;"	m	class:Context	typeref:typename:Strategy *	file:	access:private
+Desktop	factor.cpp	/^class Desktop: public Computer$/;"	c	file:
+Desktop::description	factor.cpp	/^	void description()$/;"	f	class:Desktop	typeref:typename:void	file:	access:public	signature:()
+Desktop::price	factor.cpp	/^	void price()$/;"	f	class:Desktop	typeref:typename:void	file:	access:public	signature:()
+Desktop::~Desktop	factor.cpp	/^	virtual ~Desktop(){$/;"	f	class:Desktop	file:	access:public	signature:()
+Factory	abstracFactory.cpp	/^class Factory{$/;"	c	file:
+Factory::factoryPrint	abstracFactory.cpp	/^	void factoryPrint(){$/;"	f	class:Factory	typeref:typename:void	file:	access:public	signature:()
+Factory::~Factory	abstracFactory.cpp	/^	virtual ~Factory(){$/;"	f	class:Factory	file:	access:public	signature:()
+ForeignCenter	newAdapter.cpp	/^	ForeignCenter() {$/;"	f	class:ForeignCenter	file:	access:public	signature:()
+ForeignCenter	newAdapter.cpp	/^	ForeignCenter(string name){$/;"	f	class:ForeignCenter	file:	access:public	signature:(string name)
+ForeignCenter	newAdapter.cpp	/^class ForeignCenter$/;"	c	file:
+ForeignCenter::ForeignCenter	newAdapter.cpp	/^	ForeignCenter() {$/;"	f	class:ForeignCenter	file:	access:public	signature:()
+ForeignCenter::ForeignCenter	newAdapter.cpp	/^	ForeignCenter(string name){$/;"	f	class:ForeignCenter	file:	access:public	signature:(string name)
+ForeignCenter::foreignCenterAttack	newAdapter.cpp	/^	void foreignCenterAttack(){$/;"	f	class:ForeignCenter	typeref:typename:void	file:	access:public	signature:()
+ForeignCenter::foreignCenterDefense	newAdapter.cpp	/^	void foreignCenterDefense(){$/;"	f	class:ForeignCenter	typeref:typename:void	file:	access:public	signature:()
+ForeignCenter::getName	newAdapter.cpp	/^	string getName(){$/;"	f	class:ForeignCenter	typeref:typename:string	file:	access:public	signature:()
+ForeignCenter::name	newAdapter.cpp	/^	string name;$/;"	m	class:ForeignCenter	typeref:typename:string	file:	access:private
+ForeignCenter::setName	newAdapter.cpp	/^	void setName(string name){$/;"	f	class:ForeignCenter	typeref:typename:void	file:	access:public	signature:(string name)
+ForeignCenter::~ForeignCenter	newAdapter.cpp	/^	~ForeignCenter() {$/;"	f	class:ForeignCenter	file:	access:public	signature:()
+Forwards	newAdapter.cpp	/^	Forwards():Player(){$/;"	f	class:Forwards	file:	access:public	signature:()
+Forwards	newAdapter.cpp	/^	Forwards(string name_s){$/;"	f	class:Forwards	file:	access:public	signature:(string name_s)
+Forwards	newAdapter.cpp	/^class Forwards :public Player{$/;"	c	file:
+Forwards::Forwards	newAdapter.cpp	/^	Forwards():Player(){$/;"	f	class:Forwards	file:	access:public	signature:()
+Forwards::Forwards	newAdapter.cpp	/^	Forwards(string name_s){$/;"	f	class:Forwards	file:	access:public	signature:(string name_s)
+Forwards::attack	newAdapter.cpp	/^	virtual void attack(){$/;"	f	class:Forwards	typeref:typename:void	file:	access:public	signature:()
+Forwards::defense	newAdapter.cpp	/^	virtual void defense(){$/;"	f	class:Forwards	typeref:typename:void	file:	access:public	signature:()
+Forwards::name	newAdapter.cpp	/^	string name;$/;"	m	class:Forwards	typeref:typename:string	file:	access:private
+Forwards::~Forwards	newAdapter.cpp	/^	virtual ~Forwards(){$/;"	f	class:Forwards	file:	access:public	signature:()
+GiveDolls	proxy.cpp	/^void Proxy::GiveDolls(){$/;"	f	class:Proxy	typeref:typename:void	signature:()
+GiveDolls	proxy.cpp	/^void Pursuit::GiveDolls(){$/;"	f	class:Pursuit	typeref:typename:void	signature:()
+GiveFlowers	proxy.cpp	/^void Proxy::GiveFlowers(){$/;"	f	class:Proxy	typeref:typename:void	signature:()
+GiveFlowers	proxy.cpp	/^void Pursuit::GiveFlowers(){$/;"	f	class:Pursuit	typeref:typename:void	signature:()
+HandsetAddressList	bridge.cpp	/^	HandsetAddressList():Handsetsoft(){$/;"	f	class:HandsetAddressList	file:	access:public	signature:()
+HandsetAddressList	bridge.cpp	/^class HandsetAddressList: public Handsetsoft{$/;"	c	file:
+HandsetAddressList::HandsetAddressList	bridge.cpp	/^	HandsetAddressList():Handsetsoft(){$/;"	f	class:HandsetAddressList	file:	access:public	signature:()
+HandsetAddressList::run	bridge.cpp	/^	virtual void run(){$/;"	f	class:HandsetAddressList	typeref:typename:void	file:	access:public	signature:()
+HandsetAddressList::~HandsetAddressList	bridge.cpp	/^	virtual ~HandsetAddressList(){$/;"	f	class:HandsetAddressList	file:	access:public	signature:()
+HandsetBrand	bridge.cpp	/^	HandsetBrand(){$/;"	f	class:HandsetBrand	file:	access:public	signature:()
+HandsetBrand	bridge.cpp	/^class HandsetBrand$/;"	c	file:
+HandsetBrand::HandsetBrand	bridge.cpp	/^	HandsetBrand(){$/;"	f	class:HandsetBrand	file:	access:public	signature:()
+HandsetBrand::run	bridge.cpp	/^	virtual void run(){$/;"	f	class:HandsetBrand	typeref:typename:void	file:	access:public	signature:()
+HandsetBrand::setHandsetsoft	bridge.cpp	/^	virtual void setHandsetsoft(Handsetsoft* soft){$/;"	f	class:HandsetBrand	typeref:typename:void	file:	access:public	signature:(Handsetsoft * soft)
+HandsetBrand::soft	bridge.cpp	/^	Handsetsoft* soft;$/;"	m	class:HandsetBrand	typeref:typename:Handsetsoft *	file:	access:protected
+HandsetBrand::~HandsetBrand	bridge.cpp	/^	virtual ~HandsetBrand(){$/;"	f	class:HandsetBrand	file:	access:public	signature:()
+HandsetGame	bridge.cpp	/^	HandsetGame():Handsetsoft(){$/;"	f	class:HandsetGame	file:	access:public	signature:()
+HandsetGame	bridge.cpp	/^class HandsetGame:public Handsetsoft{$/;"	c	file:
+HandsetGame::HandsetGame	bridge.cpp	/^	HandsetGame():Handsetsoft(){$/;"	f	class:HandsetGame	file:	access:public	signature:()
+HandsetGame::run	bridge.cpp	/^	virtual void run(){$/;"	f	class:HandsetGame	typeref:typename:void	file:	access:public	signature:()
+HandsetGame::~HandsetGame	bridge.cpp	/^	virtual ~HandsetGame(){$/;"	f	class:HandsetGame	file:	access:public	signature:()
+Handsetsoft	bridge.cpp	/^	Handsetsoft(){$/;"	f	class:Handsetsoft	file:	access:public	signature:()
+Handsetsoft	bridge.cpp	/^class Handsetsoft{$/;"	c	file:
+Handsetsoft::Handsetsoft	bridge.cpp	/^	Handsetsoft(){$/;"	f	class:Handsetsoft	file:	access:public	signature:()
+Handsetsoft::~Handsetsoft	bridge.cpp	/^	virtual ~Handsetsoft(){$/;"	f	class:Handsetsoft	file:	access:public	signature:()
+IDepartment	abstracFactory.cpp	/^class IDepartment{$/;"	c	file:
+IDepartment::~IDepartment	abstracFactory.cpp	/^	virtual ~IDepartment(){$/;"	f	class:IDepartment	file:	access:public	signature:()
+IGiveGift	include/proxy.h	/^class IGiveGift{$/;"	c
+IGiveGift	proxy.cpp	/^IGiveGift::IGiveGift(){$/;"	f	class:IGiveGift	signature:()
+IGiveGift::IGiveGift	proxy.cpp	/^IGiveGift::IGiveGift(){$/;"	f	class:IGiveGift	signature:()
+IGiveGift::~IGiveGift	proxy.cpp	/^IGiveGift::~IGiveGift(){$/;"	f	class:IGiveGift	signature:()
+IUser	abstracFactory.cpp	/^class IUser{$/;"	c	file:
+IUser::~IUser	abstracFactory.cpp	/^	virtual ~IUser(){$/;"	f	class:IUser	file:	access:public	signature:()
+Iphone	bridge.cpp	/^	Iphone():HandsetBrand(){$/;"	f	class:Iphone	file:	access:public	signature:()
+Iphone	bridge.cpp	/^class Iphone: public HandsetBrand{$/;"	c	file:
+Iphone::Iphone	bridge.cpp	/^	Iphone():HandsetBrand(){$/;"	f	class:Iphone	file:	access:public	signature:()
+Iphone::run	bridge.cpp	/^	virtual void run(){$/;"	f	class:Iphone	typeref:typename:void	file:	access:public	signature:()
+Iphone::~Iphone	bridge.cpp	/^	virtual ~Iphone(){$/;"	f	class:Iphone	file:	access:public	signature:()
+Laptop	factor.cpp	/^class Laptop: public Computer$/;"	c	file:
+Laptop::description	factor.cpp	/^	void description()$/;"	f	class:Laptop	typeref:typename:void	file:	access:public	signature:()
+Laptop::price	factor.cpp	/^	void price()$/;"	f	class:Laptop	typeref:typename:void	file:	access:public	signature:()
+Laptop::~Laptop	factor.cpp	/^	virtual ~Laptop() {};$/;"	f	class:Laptop	file:	access:public	signature:()
+MysqlDepartment	abstracFactory.cpp	/^class MysqlDepartment : public IDepartment{$/;"	c	file:
+MysqlDepartment::getDepartment	abstracFactory.cpp	/^	virtual void getDepartment(){$/;"	f	class:MysqlDepartment	typeref:typename:void	file:	access:public	signature:()
+MysqlDepartment::insert	abstracFactory.cpp	/^	virtual void insert(){$/;"	f	class:MysqlDepartment	typeref:typename:void	file:	access:public	signature:()
+MysqlDepartment::~MysqlDepartment	abstracFactory.cpp	/^	virtual ~MysqlDepartment(){$/;"	f	class:MysqlDepartment	file:	access:public	signature:()
+MysqlFactory	abstracFactory.cpp	/^class MysqlFactory : public Factory{$/;"	c	file:
+MysqlFactory::createDepartment	abstracFactory.cpp	/^	virtual IDepartment* createDepartment(){$/;"	f	class:MysqlFactory	typeref:typename:IDepartment *	file:	access:public	signature:()
+MysqlFactory::createUser	abstracFactory.cpp	/^	virtual IUser* createUser(){$/;"	f	class:MysqlFactory	typeref:typename:IUser *	file:	access:public	signature:()
+MysqlFactory::~MysqlFactory	abstracFactory.cpp	/^	virtual ~MysqlFactory(){$/;"	f	class:MysqlFactory	file:	access:public	signature:()
+MysqlUser	abstracFactory.cpp	/^class MysqlUser : public IUser{$/;"	c	file:
+MysqlUser::getUser	abstracFactory.cpp	/^	virtual void getUser(){$/;"	f	class:MysqlUser	typeref:typename:void	file:	access:public	signature:()
+MysqlUser::insert	abstracFactory.cpp	/^	virtual void insert(){$/;"	f	class:MysqlUser	typeref:typename:void	file:	access:public	signature:()
+MysqlUser::~MysqlUser	abstracFactory.cpp	/^	virtual ~MysqlUser(){$/;"	f	class:MysqlUser	file:	access:public	signature:()
+NewComputer	adapter.cpp	/^class NewComputer : public TypeC {$/;"	c	file:
+NewComputer	factor.cpp	/^	static Computer *NewComputer(const std::string &description)$/;"	f	class:ComputerFactory	typeref:typename:Computer *	file:	access:public	signature:(const std::string & description)
+NewComputer::chargeWithTypeC	adapter.cpp	/^    void chargeWithTypeC() override {$/;"	f	class:NewComputer	typeref:typename:void	file:	access:public	signature:()
+NewMultiDesktop	factor.cpp	/^  	Computer *NewMultiDesktop() {$/;"	f	class:ComputerMultiFactory	typeref:typename:Computer *	file:	access:public	signature:()
+NewMultiLaptop	factor.cpp	/^  	Computer *NewMultiLaptop () {$/;"	f	class:ComputerMultiFactory	typeref:typename:Computer *	file:	access:public	signature:()
+NewStaticDesktop	factor.cpp	/^  	static Computer *NewStaticDesktop() {$/;"	f	class:ComputerStaticFactory	typeref:typename:Computer *	file:	access:public	signature:()
+NewStaticLaptop	factor.cpp	/^  	static Computer *NewStaticLaptop() {$/;"	f	class:ComputerStaticFactory	typeref:typename:Computer *	file:	access:public	signature:()
+Observer	observer.cpp	/^class Observer {$/;"	c	file:
+Player	newAdapter.cpp	/^	Player(){$/;"	f	class:Player	file:	access:public	signature:()
+Player	newAdapter.cpp	/^	Player(string name){$/;"	f	class:Player	file:	access:public	signature:(string name)
+Player	newAdapter.cpp	/^class Player{$/;"	c	file:
+Player::Player	newAdapter.cpp	/^	Player(){$/;"	f	class:Player	file:	access:public	signature:()
+Player::Player	newAdapter.cpp	/^	Player(string name){$/;"	f	class:Player	file:	access:public	signature:(string name)
+Player::name	newAdapter.cpp	/^	string name;$/;"	m	class:Player	typeref:typename:string	file:	access:protected
+Player::~Player	newAdapter.cpp	/^	virtual ~Player(){$/;"	f	class:Player	file:	access:public	signature:()
+Prototype	prototype.cpp	/^	Prototype(){$/;"	f	class:Prototype	file:	access:protected	signature:()
+Prototype	prototype.cpp	/^class Prototype{$/;"	c	file:
+Prototype::Prototype	prototype.cpp	/^	Prototype(){$/;"	f	class:Prototype	file:	access:protected	signature:()
+Prototype::~Prototype	prototype.cpp	/^	virtual ~Prototype(){$/;"	f	class:Prototype	file:	access:public	signature:()
+Proxy	include/proxy.h	/^class Proxy: public IGiveGift{$/;"	c
+Proxy	proxy.cpp	/^Proxy::Proxy(SchoolGirl* mm){$/;"	f	class:Proxy	signature:(SchoolGirl * mm)
+Proxy::GiveDolls	proxy.cpp	/^void Proxy::GiveDolls(){$/;"	f	class:Proxy	typeref:typename:void	signature:()
+Proxy::GiveFlowers	proxy.cpp	/^void Proxy::GiveFlowers(){$/;"	f	class:Proxy	typeref:typename:void	signature:()
+Proxy::Proxy	proxy.cpp	/^Proxy::Proxy(SchoolGirl* mm){$/;"	f	class:Proxy	signature:(SchoolGirl * mm)
+Proxy::gg	include/proxy.h	/^	Pursuit* gg;$/;"	m	class:Proxy	typeref:typename:Pursuit *	access:private
+Proxy::~Proxy	proxy.cpp	/^Proxy::~Proxy(){$/;"	f	class:Proxy	signature:()
+Pursuit	include/proxy.h	/^class Pursuit: public IGiveGift{$/;"	c
+Pursuit	proxy.cpp	/^Pursuit::Pursuit(SchoolGirl* mm){$/;"	f	class:Pursuit	signature:(SchoolGirl * mm)
+Pursuit::GiveDolls	proxy.cpp	/^void Pursuit::GiveDolls(){$/;"	f	class:Pursuit	typeref:typename:void	signature:()
+Pursuit::GiveFlowers	proxy.cpp	/^void Pursuit::GiveFlowers(){$/;"	f	class:Pursuit	typeref:typename:void	signature:()
+Pursuit::Pursuit	proxy.cpp	/^Pursuit::Pursuit(SchoolGirl* mm){$/;"	f	class:Pursuit	signature:(SchoolGirl * mm)
+Pursuit::mm	include/proxy.h	/^	SchoolGirl* mm;$/;"	m	class:Pursuit	typeref:typename:SchoolGirl *	access:private
+Pursuit::~Pursuit	proxy.cpp	/^Pursuit::~Pursuit(){$/;"	f	class:Pursuit	signature:()
+SchoolGirl	include/proxy.h	/^class SchoolGirl{$/;"	c
+SchoolGirl::getName	proxy.cpp	/^string SchoolGirl::getName(){$/;"	f	class:SchoolGirl	typeref:typename:string	signature:()
+SchoolGirl::name	include/proxy.h	/^	string name;$/;"	m	class:SchoolGirl	typeref:typename:string	access:private
+SchoolGirl::setName	proxy.cpp	/^void SchoolGirl::setName(string name){$/;"	f	class:SchoolGirl	typeref:typename:void	signature:(string name)
+Singleton	singleton.cpp	/^class Singleton{$/;"	c	file:
+Singleton2	singleton.cpp	/^class Singleton2 {$/;"	c	file:
+Singleton2::getInstance	singleton.cpp	/^	static Singleton2* getInstance() {$/;"	f	class:Singleton2	typeref:typename:Singleton2 *	file:	access:public	signature:()
+Singleton2::ptr	singleton.cpp	/^	static Singleton2* ptr;$/;"	m	class:Singleton2	typeref:typename:Singleton2 *	file:	access:private
+Singleton2::ptr	singleton.cpp	/^Singleton2* Singleton2::ptr = new Singleton2;$/;"	m	class:Singleton2	typeref:typename:Singleton2 *
+Singleton::getInstance	singleton.cpp	/^    static Singleton* getInstance(){$/;"	f	class:Singleton	typeref:typename:Singleton *	file:	access:public	signature:()
+SqlserverDepartment	abstracFactory.cpp	/^class SqlserverDepartment : public IDepartment{$/;"	c	file:
+SqlserverDepartment::getDepartment	abstracFactory.cpp	/^	virtual void getDepartment(){$/;"	f	class:SqlserverDepartment	typeref:typename:void	file:	access:public	signature:()
+SqlserverDepartment::insert	abstracFactory.cpp	/^	virtual void insert(){$/;"	f	class:SqlserverDepartment	typeref:typename:void	file:	access:public	signature:()
+SqlserverDepartment::~SqlserverDepartment	abstracFactory.cpp	/^	virtual ~SqlserverDepartment(){$/;"	f	class:SqlserverDepartment	file:	access:public	signature:()
+SqlserverFactory	abstracFactory.cpp	/^class SqlserverFactory : public Factory{$/;"	c	file:
+SqlserverFactory::createDepartment	abstracFactory.cpp	/^	virtual IDepartment* createDepartment(){$/;"	f	class:SqlserverFactory	typeref:typename:IDepartment *	file:	access:public	signature:()
+SqlserverFactory::createUser	abstracFactory.cpp	/^	virtual IUser* createUser(){$/;"	f	class:SqlserverFactory	typeref:typename:IUser *	file:	access:public	signature:()
+SqlserverFactory::~SqlserverFactory	abstracFactory.cpp	/^	virtual ~SqlserverFactory(){$/;"	f	class:SqlserverFactory	file:	access:public	signature:()
+SqlserverUser	abstracFactory.cpp	/^class SqlserverUser : public IUser{$/;"	c	file:
+SqlserverUser::getUser	abstracFactory.cpp	/^    virtual void getUser(){$/;"	f	class:SqlserverUser	typeref:typename:void	file:	access:public	signature:()
+SqlserverUser::insert	abstracFactory.cpp	/^    virtual void insert(){$/;"	f	class:SqlserverUser	typeref:typename:void	file:	access:public	signature:()
+SqlserverUser::~SqlserverUser	abstracFactory.cpp	/^    virtual ~SqlserverUser(){$/;"	f	class:SqlserverUser	file:	access:public	signature:()
+Strategy	strategy.cpp	/^	Strategy(){$/;"	f	class:Strategy	file:	access:public	signature:()
+Strategy	strategy.cpp	/^class Strategy{$/;"	c	file:
+Strategy::Strategy	strategy.cpp	/^	Strategy(){$/;"	f	class:Strategy	file:	access:public	signature:()
+Strategy::algorithmInterface	strategy.cpp	/^	virtual void algorithmInterface(){$/;"	f	class:Strategy	typeref:typename:void	file:	access:public	signature:()
+Strategy::~Strategy	strategy.cpp	/^	virtual ~Strategy(){$/;"	f	class:Strategy	file:	access:public	signature:()
+Student	observer.cpp	/^    Student(const std::string& name) : name(name) {}$/;"	f	class:Student	file:	access:public	signature:(const std::string & name)
+Student	observer.cpp	/^class Student : public Observer {$/;"	c	file:
+Student::Student	observer.cpp	/^    Student(const std::string& name) : name(name) {}$/;"	f	class:Student	file:	access:public	signature:(const std::string & name)
+Student::name	observer.cpp	/^    std::string name;$/;"	m	class:Student	typeref:typename:std::string	file:	access:private
+Student::update	observer.cpp	/^    void update(int hour) override {$/;"	f	class:Student	typeref:typename:void	file:	access:public	signature:(int hour)
+Subject	observer.cpp	/^class Subject {$/;"	c	file:
+Translator	newAdapter.cpp	/^	Translator(){$/;"	f	class:Translator	file:	access:public	signature:()
+Translator	newAdapter.cpp	/^	Translator(string name){$/;"	f	class:Translator	file:	access:public	signature:(string name)
+Translator	newAdapter.cpp	/^class Translator : public Player{$/;"	c	file:
+Translator::Translator	newAdapter.cpp	/^	Translator(){$/;"	f	class:Translator	file:	access:public	signature:()
+Translator::Translator	newAdapter.cpp	/^	Translator(string name){$/;"	f	class:Translator	file:	access:public	signature:(string name)
+Translator::attack	newAdapter.cpp	/^	virtual void attack(){$/;"	f	class:Translator	typeref:typename:void	file:	access:public	signature:()
+Translator::defense	newAdapter.cpp	/^	virtual void defense(){$/;"	f	class:Translator	typeref:typename:void	file:	access:public	signature:()
+Translator::fc	newAdapter.cpp	/^	ForeignCenter* fc;$/;"	m	class:Translator	typeref:typename:ForeignCenter *	file:	access:private
+Translator::~Translator	newAdapter.cpp	/^	virtual ~Translator(){$/;"	f	class:Translator	file:	access:public	signature:()
+TypeC	adapter.cpp	/^class TypeC{$/;"	c	file:
+TypeCAdapter	adapter.cpp	/^    TypeCAdapter(TypeC* typeC) : typeC(typeC) {}$/;"	f	class:TypeCAdapter	file:	access:public	signature:(TypeC * typeC)
+TypeCAdapter	adapter.cpp	/^class TypeCAdapter : public USB {$/;"	c	file:
+TypeCAdapter::TypeCAdapter	adapter.cpp	/^    TypeCAdapter(TypeC* typeC) : typeC(typeC) {}$/;"	f	class:TypeCAdapter	file:	access:public	signature:(TypeC * typeC)
+TypeCAdapter::charge	adapter.cpp	/^    void charge() override {$/;"	f	class:TypeCAdapter	typeref:typename:void	file:	access:public	signature:()
+TypeCAdapter::typeC	adapter.cpp	/^    TypeC* typeC;$/;"	m	class:TypeCAdapter	typeref:typename:TypeC *	file:	access:private
+USB	adapter.cpp	/^class USB{$/;"	c	file:
+algorithmInterface	strategy.cpp	/^	virtual void algorithmInterface(){$/;"	f	class:ConcreteStrategyA	typeref:typename:void	file:	access:public	signature:()
+algorithmInterface	strategy.cpp	/^	virtual void algorithmInterface(){$/;"	f	class:ConcreteStrategyB	typeref:typename:void	file:	access:public	signature:()
+algorithmInterface	strategy.cpp	/^	virtual void algorithmInterface(){$/;"	f	class:Strategy	typeref:typename:void	file:	access:public	signature:()
+attack	newAdapter.cpp	/^	virtual void attack(){$/;"	f	class:Center	typeref:typename:void	file:	access:public	signature:()
+attack	newAdapter.cpp	/^	virtual void attack(){$/;"	f	class:Forwards	typeref:typename:void	file:	access:public	signature:()
+attack	newAdapter.cpp	/^	virtual void attack(){$/;"	f	class:Translator	typeref:typename:void	file:	access:public	signature:()
+charge	adapter.cpp	/^    void charge() override {$/;"	f	class:AdapterCharger	typeref:typename:void	file:	access:public	signature:()
+charge	adapter.cpp	/^    void charge() override {$/;"	f	class:TypeCAdapter	typeref:typename:void	file:	access:public	signature:()
+chargeWithTypeC	adapter.cpp	/^    void chargeWithTypeC() override {$/;"	f	class:NewComputer	typeref:typename:void	file:	access:public	signature:()
+contextInterface	strategy.cpp	/^	void contextInterface(){$/;"	f	class:Context	typeref:typename:void	file:	access:public	signature:()
+createDepartment	abstracFactory.cpp	/^	virtual IDepartment* createDepartment(){$/;"	f	class:MysqlFactory	typeref:typename:IDepartment *	file:	access:public	signature:()
+createDepartment	abstracFactory.cpp	/^	virtual IDepartment* createDepartment(){$/;"	f	class:SqlserverFactory	typeref:typename:IDepartment *	file:	access:public	signature:()
+createUser	abstracFactory.cpp	/^	virtual IUser* createUser(){$/;"	f	class:MysqlFactory	typeref:typename:IUser *	file:	access:public	signature:()
+createUser	abstracFactory.cpp	/^	virtual IUser* createUser(){$/;"	f	class:SqlserverFactory	typeref:typename:IUser *	file:	access:public	signature:()
+defense	newAdapter.cpp	/^	virtual void defense(){$/;"	f	class:Center	typeref:typename:void	file:	access:public	signature:()
+defense	newAdapter.cpp	/^	virtual void defense(){$/;"	f	class:Forwards	typeref:typename:void	file:	access:public	signature:()
+defense	newAdapter.cpp	/^	virtual void defense(){$/;"	f	class:Translator	typeref:typename:void	file:	access:public	signature:()
+description	factor.cpp	/^	void description()$/;"	f	class:Desktop	typeref:typename:void	file:	access:public	signature:()
+description	factor.cpp	/^	void description()$/;"	f	class:Laptop	typeref:typename:void	file:	access:public	signature:()
+factoryPrint	abstracFactory.cpp	/^	void factoryPrint(){$/;"	f	class:Factory	typeref:typename:void	file:	access:public	signature:()
+fc	newAdapter.cpp	/^	ForeignCenter* fc;$/;"	m	class:Translator	typeref:typename:ForeignCenter *	file:	access:private
+foreignCenterAttack	newAdapter.cpp	/^	void foreignCenterAttack(){$/;"	f	class:ForeignCenter	typeref:typename:void	file:	access:public	signature:()
+foreignCenterDefense	newAdapter.cpp	/^	void foreignCenterDefense(){$/;"	f	class:ForeignCenter	typeref:typename:void	file:	access:public	signature:()
+getDepartment	abstracFactory.cpp	/^	virtual void getDepartment(){$/;"	f	class:MysqlDepartment	typeref:typename:void	file:	access:public	signature:()
+getDepartment	abstracFactory.cpp	/^	virtual void getDepartment(){$/;"	f	class:SqlserverDepartment	typeref:typename:void	file:	access:public	signature:()
+getInstance	singleton.cpp	/^	static Singleton2* getInstance() {$/;"	f	class:Singleton2	typeref:typename:Singleton2 *	file:	access:public	signature:()
+getInstance	singleton.cpp	/^    static Singleton* getInstance(){$/;"	f	class:Singleton	typeref:typename:Singleton *	file:	access:public	signature:()
+getName	newAdapter.cpp	/^	string getName(){$/;"	f	class:ForeignCenter	typeref:typename:string	file:	access:public	signature:()
+getName	proxy.cpp	/^string SchoolGirl::getName(){$/;"	f	class:SchoolGirl	typeref:typename:string	signature:()
+getObservers	observer.cpp	/^    const std::vector<Observer*>& getObservers() const {$/;"	f	class:Clock	typeref:typename:const std::vector<Observer * > &	file:	access:public	signature:() const
+getUser	abstracFactory.cpp	/^	virtual void getUser(){$/;"	f	class:MysqlUser	typeref:typename:void	file:	access:public	signature:()
+getUser	abstracFactory.cpp	/^    virtual void getUser(){$/;"	f	class:SqlserverUser	typeref:typename:void	file:	access:public	signature:()
+gg	include/proxy.h	/^	Pursuit* gg;$/;"	m	class:Proxy	typeref:typename:Pursuit *	access:private
+hour	observer.cpp	/^    int hour;$/;"	m	class:Clock	typeref:typename:int	file:	access:private
+insert	abstracFactory.cpp	/^	virtual void insert(){$/;"	f	class:MysqlDepartment	typeref:typename:void	file:	access:public	signature:()
+insert	abstracFactory.cpp	/^	virtual void insert(){$/;"	f	class:MysqlUser	typeref:typename:void	file:	access:public	signature:()
+insert	abstracFactory.cpp	/^	virtual void insert(){$/;"	f	class:SqlserverDepartment	typeref:typename:void	file:	access:public	signature:()
+insert	abstracFactory.cpp	/^    virtual void insert(){$/;"	f	class:SqlserverUser	typeref:typename:void	file:	access:public	signature:()
+main	abstracFactory.cpp	/^int main(){$/;"	f	typeref:typename:int	signature:()
+main	adapter.cpp	/^int main() {$/;"	f	typeref:typename:int	signature:()
+main	bridge.cpp	/^int main(){$/;"	f	typeref:typename:int	signature:()
+main	factor.cpp	/^int main()$/;"	f	typeref:typename:int	signature:()
+main	newAdapter.cpp	/^int main(){$/;"	f	typeref:typename:int	signature:()
+main	observer.cpp	/^int main() {$/;"	f	typeref:typename:int	signature:()
+main	prototype.cpp	/^int main(){$/;"	f	typeref:typename:int	signature:()
+main	proxy.cpp	/^int main(){$/;"	f	typeref:typename:int	signature:()
+main	singleton.cpp	/^int main(){$/;"	f	typeref:typename:int	signature:()
+main	strategy.cpp	/^int main(){$/;"	f	typeref:typename:int	signature:()
+main	test.cpp	/^int main(){$/;"	f	typeref:typename:int	signature:()
+mm	include/proxy.h	/^	SchoolGirl* mm;$/;"	m	class:Pursuit	typeref:typename:SchoolGirl *	access:private
+my_sum	include/test.h	/^void my_sum(int a,int b){$/;"	f	typeref:typename:void	signature:(int a,int b)
+name	include/proxy.h	/^	string name;$/;"	m	class:SchoolGirl	typeref:typename:string	access:private
+name	newAdapter.cpp	/^	string name;$/;"	m	class:Center	typeref:typename:string	file:	access:private
+name	newAdapter.cpp	/^	string name;$/;"	m	class:ForeignCenter	typeref:typename:string	file:	access:private
+name	newAdapter.cpp	/^	string name;$/;"	m	class:Forwards	typeref:typename:string	file:	access:private
+name	newAdapter.cpp	/^	string name;$/;"	m	class:Player	typeref:typename:string	file:	access:protected
+name	observer.cpp	/^    std::string name;$/;"	m	class:Student	typeref:typename:std::string	file:	access:private
+notifyObservers	observer.cpp	/^    void notifyObservers() override {$/;"	f	class:Clock	typeref:typename:void	file:	access:public	signature:()
+observers	observer.cpp	/^    std::vector<Observer*> observers;$/;"	m	class:Clock	typeref:typename:std::vector<Observer * >	file:	access:private
+price	factor.cpp	/^	void price()$/;"	f	class:Desktop	typeref:typename:void	file:	access:public	signature:()
+price	factor.cpp	/^	void price()$/;"	f	class:Laptop	typeref:typename:void	file:	access:public	signature:()
+ptr	singleton.cpp	/^	static Singleton2* ptr;$/;"	m	class:Singleton2	typeref:typename:Singleton2 *	file:	access:private
+ptr	singleton.cpp	/^Singleton2* Singleton2::ptr = new Singleton2;$/;"	m	class:Singleton2	typeref:typename:Singleton2 *
+registerObserver	observer.cpp	/^    void registerObserver(Observer* observer) override {$/;"	f	class:Clock	typeref:typename:void	file:	access:public	signature:(Observer * observer)
+removeObserver	observer.cpp	/^    void removeObserver(Observer* observer) override {$/;"	f	class:Clock	typeref:typename:void	file:	access:public	signature:(Observer * observer)
+run	bridge.cpp	/^	virtual void run(){$/;"	f	class:Android	typeref:typename:void	file:	access:public	signature:()
+run	bridge.cpp	/^	virtual void run(){$/;"	f	class:HandsetAddressList	typeref:typename:void	file:	access:public	signature:()
+run	bridge.cpp	/^	virtual void run(){$/;"	f	class:HandsetBrand	typeref:typename:void	file:	access:public	signature:()
+run	bridge.cpp	/^	virtual void run(){$/;"	f	class:HandsetGame	typeref:typename:void	file:	access:public	signature:()
+run	bridge.cpp	/^	virtual void run(){$/;"	f	class:Iphone	typeref:typename:void	file:	access:public	signature:()
+setHandsetsoft	bridge.cpp	/^	virtual void setHandsetsoft(Handsetsoft* soft){$/;"	f	class:HandsetBrand	typeref:typename:void	file:	access:public	signature:(Handsetsoft * soft)
+setName	newAdapter.cpp	/^	void setName(string name){$/;"	f	class:ForeignCenter	typeref:typename:void	file:	access:public	signature:(string name)
+setName	proxy.cpp	/^void SchoolGirl::setName(string name){$/;"	f	class:SchoolGirl	typeref:typename:void	signature:(string name)
+soft	bridge.cpp	/^	Handsetsoft* soft;$/;"	m	class:HandsetBrand	typeref:typename:Handsetsoft *	file:	access:protected
+strategy	strategy.cpp	/^	Strategy* strategy;$/;"	m	class:Context	typeref:typename:Strategy *	file:	access:private
+tick	observer.cpp	/^    void tick() {$/;"	f	class:Clock	typeref:typename:void	file:	access:public	signature:()
+typeC	adapter.cpp	/^    TypeC* typeC;$/;"	m	class:TypeCAdapter	typeref:typename:TypeC *	file:	access:private
+update	observer.cpp	/^    void update(int hour) override {$/;"	f	class:Student	typeref:typename:void	file:	access:public	signature:(int hour)
+~Android	bridge.cpp	/^	virtual ~Android(){$/;"	f	class:Android	file:	access:public	signature:()
+~Center	newAdapter.cpp	/^	virtual ~Center(){$/;"	f	class:Center	file:	access:public	signature:()
+~Computer	factor.cpp	/^    virtual ~Computer(){$/;"	f	class:Computer	file:	access:public	signature:()
+~ConcretePrototype	prototype.cpp	/^	~ConcretePrototype(){$/;"	f	class:ConcretePrototype	file:	access:public	signature:()
+~ConcreteStrategyA	strategy.cpp	/^	virtual ~ConcreteStrategyA(){$/;"	f	class:ConcreteStrategyA	file:	access:public	signature:()
+~ConcreteStrategyB	strategy.cpp	/^	virtual ~ConcreteStrategyB(){$/;"	f	class:ConcreteStrategyB	file:	access:public	signature:()
+~Desktop	factor.cpp	/^	virtual ~Desktop(){$/;"	f	class:Desktop	file:	access:public	signature:()
+~Factory	abstracFactory.cpp	/^	virtual ~Factory(){$/;"	f	class:Factory	file:	access:public	signature:()
+~ForeignCenter	newAdapter.cpp	/^	~ForeignCenter() {$/;"	f	class:ForeignCenter	file:	access:public	signature:()
+~Forwards	newAdapter.cpp	/^	virtual ~Forwards(){$/;"	f	class:Forwards	file:	access:public	signature:()
+~HandsetAddressList	bridge.cpp	/^	virtual ~HandsetAddressList(){$/;"	f	class:HandsetAddressList	file:	access:public	signature:()
+~HandsetBrand	bridge.cpp	/^	virtual ~HandsetBrand(){$/;"	f	class:HandsetBrand	file:	access:public	signature:()
+~HandsetGame	bridge.cpp	/^	virtual ~HandsetGame(){$/;"	f	class:HandsetGame	file:	access:public	signature:()
+~Handsetsoft	bridge.cpp	/^	virtual ~Handsetsoft(){$/;"	f	class:Handsetsoft	file:	access:public	signature:()
+~IDepartment	abstracFactory.cpp	/^	virtual ~IDepartment(){$/;"	f	class:IDepartment	file:	access:public	signature:()
+~IGiveGift	proxy.cpp	/^IGiveGift::~IGiveGift(){$/;"	f	class:IGiveGift	signature:()
+~IUser	abstracFactory.cpp	/^	virtual ~IUser(){$/;"	f	class:IUser	file:	access:public	signature:()
+~Iphone	bridge.cpp	/^	virtual ~Iphone(){$/;"	f	class:Iphone	file:	access:public	signature:()
+~Laptop	factor.cpp	/^	virtual ~Laptop() {};$/;"	f	class:Laptop	file:	access:public	signature:()
+~MysqlDepartment	abstracFactory.cpp	/^	virtual ~MysqlDepartment(){$/;"	f	class:MysqlDepartment	file:	access:public	signature:()
+~MysqlFactory	abstracFactory.cpp	/^	virtual ~MysqlFactory(){$/;"	f	class:MysqlFactory	file:	access:public	signature:()
+~MysqlUser	abstracFactory.cpp	/^	virtual ~MysqlUser(){$/;"	f	class:MysqlUser	file:	access:public	signature:()
+~Player	newAdapter.cpp	/^	virtual ~Player(){$/;"	f	class:Player	file:	access:public	signature:()
+~Prototype	prototype.cpp	/^	virtual ~Prototype(){$/;"	f	class:Prototype	file:	access:public	signature:()
+~Proxy	proxy.cpp	/^Proxy::~Proxy(){$/;"	f	class:Proxy	signature:()
+~Pursuit	proxy.cpp	/^Pursuit::~Pursuit(){$/;"	f	class:Pursuit	signature:()
+~SqlserverDepartment	abstracFactory.cpp	/^	virtual ~SqlserverDepartment(){$/;"	f	class:SqlserverDepartment	file:	access:public	signature:()
+~SqlserverFactory	abstracFactory.cpp	/^	virtual ~SqlserverFactory(){$/;"	f	class:SqlserverFactory	file:	access:public	signature:()
+~SqlserverUser	abstracFactory.cpp	/^    virtual ~SqlserverUser(){$/;"	f	class:SqlserverUser	file:	access:public	signature:()
+~Strategy	strategy.cpp	/^	virtual ~Strategy(){$/;"	f	class:Strategy	file:	access:public	signature:()
+~Translator	newAdapter.cpp	/^	virtual ~Translator(){$/;"	f	class:Translator	file:	access:public	signature:()

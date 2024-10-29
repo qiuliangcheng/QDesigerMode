@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/qlc/c++_code/designPattern/include/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+IGiveGift	proxy.h	/^class IGiveGift{$/;"	c
+Proxy	proxy.h	/^class Proxy: public IGiveGift{$/;"	c
+Proxy::gg	proxy.h	/^	Pursuit* gg;$/;"	m	class:Proxy	typeref:typename:Pursuit *	access:private
+Pursuit	proxy.h	/^class Pursuit: public IGiveGift{$/;"	c
+Pursuit::mm	proxy.h	/^	SchoolGirl* mm;$/;"	m	class:Pursuit	typeref:typename:SchoolGirl *	access:private
+SchoolGirl	proxy.h	/^class SchoolGirl{$/;"	c
+SchoolGirl::name	proxy.h	/^	string name;$/;"	m	class:SchoolGirl	typeref:typename:string	access:private
+gg	proxy.h	/^	Pursuit* gg;$/;"	m	class:Proxy	typeref:typename:Pursuit *	access:private
+mm	proxy.h	/^	SchoolGirl* mm;$/;"	m	class:Pursuit	typeref:typename:SchoolGirl *	access:private
+my_sum	test.h	/^void my_sum(int a,int b){$/;"	f	typeref:typename:void	signature:(int a,int b)
+name	proxy.h	/^	string name;$/;"	m	class:SchoolGirl	typeref:typename:string	access:private
